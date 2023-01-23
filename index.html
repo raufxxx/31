@@ -4,192 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program-5</title>
-    <!--! Bootstrap Icons On -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Porofil kart</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-       <div class="header-wrapper">
-        <div class="header-left">
-            <i class="bi bi-list"></i>
-            <h3 class="logo">RaufTube</h3>
+    <div class="profile-container">
+        <div class="img-container">
+            <img src="1674478202345.jpg" alt="porofil image">
         </div>
-        <div class="header-center">
-            <div class="header-search">
-                <input type="text" placeholder="Axtar">
-            <i class="bi bi-search"></i>
-            </div>
-            <i class="bi bi-mic"></i>
-        </div>
-         <div class="header-right">
-              <i  class="bi bi-camera-video"></i>
-              <i class="bi bi-bell"></i>
-            <div class="avatar">
-            <img src="file:///C:/Users/Admin/Desktop/PROGRAM-2/rauf.jpg" alt="avatar">
-        </div>
-        </div>
-       </div>
-    </header>
+        <p class="info full-name">Rauf Mirzəbəyov</p>
+        <p class="info role">
+            <i class="fas fa-user"></i>
+            Developer(Programist)
+        </p>
+        <p class="info place">
+            <i class="fas fa-map-marker-alt"></i>
+            Xudat,Azərbaycan
+        </p>
 
- <div class="content">
-    <div class="sidebar">
-        <ul class="sidebar-links">
-            <li class="sidebar-item">
-                <a href="#">
-                    <i class="bi bi-house"></i>
-                    <span>Ana Sehife</span>
+        <div class="posts-info">
+            <p><span>0</span>Posts</p>
+            <p><span>5000</span>Likes</p>
+            <p><span>31</span>Works</p>
+        </div>
+
+        <div class="social-container">
+            <button class="instagram">
+                <a href="https://instagram.com/mirzabek0vf?igshid=YmMyMTA2M2Y=">
+                    <i class="fab fa-instagram"></i>
                 </a>
-            </li>
-            <li class="sidebar-item">
-                <a href="#">
-                    <i class="bi bi-camera-reels"></i>
-                    <span>Videolar</span>
+            </button>
+            <button class="tiktok">
+                <a href="https://www.tiktok.com/@ruf0vf?_t=8ZGfORr3qin&_r=1">
+                    <i class="fab fa-tiktok"></i>
                 </a>
-            </li>
-            <li class="sidebar-item">
+            </button>
+            <button class="youtube">
                 <a href="#">
-                    <i class="bi bi-file-earmark-person"></i>
-                    <span>Haqqinda</span>
+                    <i class="fab fa-youtube"></i>
                 </a>
-            </li>
-            <li class="sidebar-item">
+            </button>
+            <button class="github">
                 <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                      </svg>
-                    <span>Elage</span>
+                    <i class="fab fa-github"></i>
                 </a>
-            </li>
-        </ul>
+            </button>
+        </div>
+
+        <button class="action">Follow</button>
+        <button class="action message">Message</button>
     </div>
-
-    <div class="videos">
-        <ul class="video-list">
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/lW_AK77p1wU/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLC4p_Dqs3uRGAg1GsLMkIsmCppwDg" alt="video image">
-                    <span>04:29</span>
-                </div>
-                <div class="video-texts">
-                    <a href="https://www.youtube.com/watch?v=lW_AK77p1wU">Trafik Rider</a>
-                    <span>16 görüntüleme &#x2022; 2 yıl önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/oHXgZLdje9k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTCOU5_VCvLNN3SGfweD_rVXMoqA" alt="video image">
-                    <span>3:07</span>
-                </div>
-                <div class="video-texts">
-                    <a href="https://www.youtube.com/watch?v=oHXgZLdje9k">Grenniy de bag</a>
-                    <span>164 görüntüleme &#x2022; 2 yıl önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-            <li class="video-list-item">
-                <div class="video-image">
-                    <img src="https://i.ytimg.com/vi/tHGAhj9O9xU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdtqB5WgtYszWe6CM2Je6Ltm_BqA" alt="video image">
-                    <span>28:31</span>
-                </div>
-                <div class="video-texts">
-                    <a href="#">Kim Efsane? Lionel Messi mi, Cristiano Ronaldo mu? | Kapışma 14.</a>
-                    <span>15.499 görüntüleme &#x2022; 1 gün önce</span>
-                </div>
-            </li>
-        </ul>
-    </div>
- </div>    
-
 </body>
 </html>
